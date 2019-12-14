@@ -1,5 +1,5 @@
 def create_an_empty_array
-  []
+  array = []
 end
 
 def create_an_array
@@ -16,9 +16,13 @@ end
 
 def remove_element_from_end_of_array(array)
   
+  array.pop
+  
 end
 
 def remove_element_from_start_of_array(array)
+  
+  array.shift
   
 end
 
