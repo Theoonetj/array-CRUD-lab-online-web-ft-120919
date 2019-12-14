@@ -10,8 +10,8 @@ def add_element_to_end_of_array(array, element)
   array<< "Abram"
 end
 
-def add_element_to_start_of_array(array, element)
-  array.unshift("Gabe")
+def add_element_to_start_of_array(array, element "Gabe")
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
