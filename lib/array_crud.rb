@@ -6,8 +6,8 @@ def create_an_array
   array = ["john", 1, "Peter", 2]
 end
 
-def add_element_to_end_of_array(array, element)
-  array<< "Abram"
+def add_element_to_end_of_array(array, element = "Abram")
+  array<< element
 end
 
 def add_element_to_start_of_array(array, element "Gabe")
